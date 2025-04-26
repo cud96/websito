@@ -1,0 +1,21 @@
+/* NavBar.css */
+nav {
+    display: flex;
+    justify-content: center; /* centra orizzontalmente */
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Per metterli in linea */
+    gap: 20px; /* Spazio tra gli elementi */
+    border-radius: 10px;
+}
+
+nav li {
+    margin: 0;
+    color:rgb(50, 94, 94);
+}
