@@ -1,0 +1,22 @@
+.contenitore {
+
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* per adattarsi su schermi piccoli */
+    gap: 2rem;
+  }
+  
+  .lista-prodotti {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-family:cursive;
+  }
+  
+  .carrello {
+    width: 300px;
+    min-width: 250px;
+    flex-shrink: 0;
+  }
+  

@@ -5,9 +5,9 @@ function NavBar() {
         <nav>
             <ul>
                 <li>Home</li>
-                <li>About Us</li>
-                <li>Contact</li>
-                <li>Info</li>
+                <li>Shop</li>
+                <li>Carrello</li>
+                <li>Info Contact</li>
             </ul>
         </nav>
     );

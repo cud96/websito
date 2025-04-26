@@ -1,19 +1,23 @@
 import './Card.css';
 
-function Card({title,imgURL,description,children}){
-
-
+function Card({title,prezzo,imgURL,description,disponibile}){
+    
     return(
+        <div>
         <div className="cards">
             <img 
             src={imgURL}
             alt=""
-            height="40%"
-            width="100%"></img>
+          ></img>
+          </div>
+
             <div className="descrizione">
             <h2>{title}</h2>
             <p>{description}</p>
+            <p>{prezzo}</p>   
+            <span> {disponibile ? "👜 disponibile":"❌ non disponibile"}</span>
             </div>
+        
         </div>
 
     )

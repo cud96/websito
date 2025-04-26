@@ -3,13 +3,23 @@
   background-color: rgba(213, 213, 198, 0.99);
 }
 
+.carrello{
+  font-size: large;
+  font-family: cursive; 
+}
+
 .container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2.5rem;
   width: 100%; /* Assicurati che prenda tutta la larghezza disponibile */
   max-width: 100%; /* Opzionale, per limitare la larghezza massima */
+  width: 100%; /* Occupa tutta la larghezza del genitore */
+  max-width: 1200px; /* Limite massimo su schermi grandi */
+  margin: 0 auto; /* Centra il contenuto */
+  padding: 1rem;
 }
+
 
 .cards {
   border-radius: 0.375rem; 

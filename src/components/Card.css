@@ -1,6 +1,12 @@
-.cards{
-    border-radius: 0.375rem; 
+.cards img {
+    width: 250px;
+    height: 250px;
+
 }
+.cards{
+    border-radius: 0.375rem;
+}  
+
 .descrizione{
     display: flex;
     flex-direction: column;
